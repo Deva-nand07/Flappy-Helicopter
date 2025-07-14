@@ -23,7 +23,7 @@ let bgMusic = new Audio("Assets/background.mp3");
 bgMusic.loop = true;
 bgMusic.volume = 0.4;
 
-let jumpSound = new Audio("Assets/jump.mp3");
+let jumpSound = new Audio("Assets/Jump.mp3");
 jumpSound.volume = 0.05;
 
 let crashSound = new Audio("Assets/crash.wav");
