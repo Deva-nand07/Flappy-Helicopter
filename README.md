@@ -26,9 +26,9 @@ A fun and challenging JavaScript game inspired by Flappy Bird — built using **
 (Add a screenshot or GIF here if possible)
 
 ### 🧑‍💻 Live Demo
-👉 [Play it here](https://yourusername.github.io/flappy-helicopter-js)
+👉 [Play it here](https://deva-nand07.github.io/Flappy-Helicopter/)
 
 ### 📂 How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/flappy-helicopter-js.git
+   git clone https://github.com/Deva-nand07/Flappy-Helicopter.git
