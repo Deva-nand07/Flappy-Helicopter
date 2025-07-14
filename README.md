@@ -22,9 +22,6 @@ A fun and challenging JavaScript game inspired by Flappy Bird — built using **
 - CSS (optional)
 - Audio & image assets
 
-### 📷 Screenshots
-(Add a screenshot or GIF here if possible)
-
 ### 🧑‍💻 Live Demo
 👉 [Play it here](https://deva-nand07.github.io/Flappy-Helicopter/)
 
