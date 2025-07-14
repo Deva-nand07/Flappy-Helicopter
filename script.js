@@ -209,5 +209,15 @@ document.addEventListener("keydown", (e) => {
 
 // ===== Game Start =====
 window.onload = function () {
-  update();
+  function drawLoadingScreen() {
+    ctx.fillStyle = "black";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "white";
+    ctx.font = "48px sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText("Loading...", canvas.width / 2, canvas.height / 2);
+  }
+
+  drawLoadingScreen();        // Show the loading screen first
+  setTimeout(update, 500);    // Then start the game loop after 500ms
 };
