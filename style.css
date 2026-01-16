@@ -1,9 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 #board {
-    background-color: green;
+  background-color: green;
+}
+#jumpContainer {
+  position: fixed;
+  inset: 0;                 /* full screen */
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  pointer-events: none;     /* let canvas receive clicks */
+  align-items: flex-end;    /* align to bottom */
+  padding-bottom: 40px;     /* space from bottom */
 }
 
+#jumpBtn {
+  pointer-events: auto;     /* enable click on button */
+
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+  font-size: 48px;
+  font-weight: bold;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 2px solid white;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+#jumpBtn:active {
+  transform: scale(0.95);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#pauseBtn {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  font-size: 26px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 2px solid white;
+
+  cursor: pointer;
+  z-index: 10;
+}
