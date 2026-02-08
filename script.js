@@ -20,7 +20,7 @@ canvas.height = window.innerHeight;
 // Game Physics & State
 // ===============================
 let gravity = 0.3; // downward force
-let lift = -5; // upward jump force
+let lift = -6; // upward jump force
 let velocity = 0; // player vertical speed
 
 let score = 0;
@@ -245,8 +245,18 @@ function startGame() {
 
 // Keyboard
 document.addEventListener("keydown", (e) => {
+  // Jump
   if (e.code === "Space" || e.code === "ArrowUp") {
     gameOver ? startGame() : jump();
+  }
+
+  // Pause with P key
+  if (e.code === "KeyP") {
+    if (!gameStarted || gameOver) return;
+
+    isPaused = !isPaused;
+    pauseBtn.textContent = isPaused ? "▶" : "⏸";
+    isPaused ? bgMusic.pause() : bgMusic.play();
   }
 });
 
