@@ -1,33 +1,59 @@
-# 🚁 Flappy Helicopter Game
+# Flappy Helicopter Game
 
-A fun and challenging JavaScript game inspired by Flappy Bird — built using **HTML5 Canvas** and **Vanilla JavaScript**.
+A browser-based game inspired by Flappy Bird, built using HTML5 Canvas and Vanilla JavaScript. The game focuses on simple mechanics, smooth controls, and real-time rendering.
 
-### 🔥 Features
-- Helicopter (GIF) player
-- Obstacle pipes with random gaps
-- Gravity-based motion and jump mechanics
-- pause and continue 
-- Start and Game Over screens
-- Sound effects and background music
-- Score tracking
+---
 
-### 🎮 How to Play
-- Press `Space` or `↑ Arrow` to start the game.
-- You can also pause game if you want using 'p' in pc or laptop or using button present in game 
-- Keep pressing to keep the helicopter flying.
-- Avoid hitting the pipes or the ground.
-- Try to beat your high score!
+## Features
 
-### 🛠️ Technologies Used
-- HTML5 Canvas
-- JavaScript
-- CSS (optional)
-- Audio & image assets
+* Helicopter player with animated sprite
+* Obstacle pipes with randomized gaps
+* Gravity-based motion and jump mechanics
+* Pause and resume functionality
+* Start and game over screens
+* Sound effects and background music
+* Score tracking system
 
-### 🧑‍💻 Live Demo
-👉 [Play it here](https://deva-nand07.github.io/Flappy-Helicopter/)
+---
 
-### 📂 How to Run Locally
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Deva-nand07/Flappy-Helicopter.git
+## How to Play
+
+* Press `Space` or `↑ Arrow` to start the game
+* Press the same keys to keep the helicopter flying
+* Press `P` to pause or resume the game
+* Avoid collisions with pipes and the ground
+* Try to achieve the highest score
+
+---
+
+## Technologies Used
+
+* HTML5 Canvas
+* JavaScript
+* CSS
+* Audio and image assets
+
+---
+
+## Live Demo
+
+https://deva-nand07.github.io/Flappy-Helicopter/
+
+---
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Deva-nand07/Flappy-Helicopter.git
+cd Flappy-Helicopter
+```
+
+Open `index.html` in your browser.
+
+---
+
+## Overview
+
+This project demonstrates core concepts of game development in the browser, including animation loops, collision detection, event handling, and state management using JavaScript.
